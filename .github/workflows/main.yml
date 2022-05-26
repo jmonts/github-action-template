@@ -1,0 +1,18 @@
+on: [push]
+
+jobs:
+
+  Build:
+    runs-on: ubuntu-latest
+    name: A job to test the github action template
+
+    steps:
+      - name: oryks code coverage action
+        id: selftest
+        uses: lyleokoth/pytest-coverage-ytest@v0.1.0
+        with:
+          myinput: lyle
+
+      - name: action output
+        run: |
+          echo "${{ steps.selftest.outputs.myoutput }}"
