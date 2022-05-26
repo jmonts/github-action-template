@@ -15,6 +15,8 @@ A greeting with the users name i.e hello world
 
 ## Example usage
 
+```
+
 - name: github action template
   id: selftest
   uses: lyleokoth/github-action-template@v0.2.2
@@ -24,3 +26,4 @@ A greeting with the users name i.e hello world
 - name: action output
   run: |
     echo "${{ steps.selftest.outputs.myoutput }}
+```
