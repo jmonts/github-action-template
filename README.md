@@ -17,7 +17,7 @@ A greeting with the users name i.e hello world
 
 - name: github action template
   id: selftest
-  uses: lyleokoth/github-action-template@v0.1.0
+  uses: lyleokoth/github-action-template@v0.1.1
   with:
     myinput: Lyle
 

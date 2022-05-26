@@ -9,7 +9,7 @@ jobs:
     steps:
       - name: oryks code coverage action
         id: selftest
-        uses: lyleokoth/pytest-coverage-ytest@v0.1.0
+        uses: lyleokoth/github-action-template@v0.1.1
         with:
           myinput: lyle
 
